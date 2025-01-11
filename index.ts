@@ -76,7 +76,7 @@ async function swap(tokenIn:any, tokenOut:any, amountIn:any, router:any){
         router
     );
 
-    console.log(amountOut);
+    return amountOut;
 }
 
 const app = e();
