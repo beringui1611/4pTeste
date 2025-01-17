@@ -106,6 +106,9 @@ app.post("/swap", async (req, res) => {
 });
 
 
+"teste";
+
+
 app.listen(PORT, () => {
     console.log("Server On! 🚀🚀")
 })
